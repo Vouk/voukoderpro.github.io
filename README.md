@@ -11,14 +11,14 @@ You can watch the whole [change log](changelog.md) on this page.
 ## Installation
 Voukoder Pro 2.0 requires the FFmpeg 7.1 shared libraries to be working.
 
-# Windows
+### Windows
 You can either use the package I provide:
 
 - LGPL: [FFmpeg.LGPL.Installer.msi](https://github.com/Vouk/ffmpeg/releases/download/latest/FFmpeg.LGPL.Installer.msi)
 - GPL: [FFmpeg.GPL.Installer.msi](https://github.com/Vouk/ffmpeg/releases/download/latest/FFmpeg.GPL.Installer.msi) (Includes additional encoders like (x264, x265, ...)
 Or you can even use a custom built one. In this case please make sure you also add the installation path to your PATH environment variable. The installers above already do this for you.
 
-## Mac
+### Mac
 You can install the required libraries using homebrew by executing this command in your terminal:
 
     brew install ffmpeg@7
