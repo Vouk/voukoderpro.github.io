@@ -1,0 +1,7 @@
+remote_theme: just-the-docs/just-the-docs
+
+just_the_docs:
+  toc:
+    enabled: true
+    heading: "Contents"
+    depth: 3
