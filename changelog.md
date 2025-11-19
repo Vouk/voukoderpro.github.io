@@ -1,3 +1,10 @@
+---
+layout: default
+title: Changelog
+---
+
+# Cda
+
 ## Changelog
 ### 3.0 - Begin of Q1 2026
 - Core
