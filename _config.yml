@@ -7,6 +7,8 @@ markdown: kramdown
 
 kramdown:
   input: GFM
+  auto_ids: true
+  toc_levels: 1..6
   hard_wrap: false
   syntax_highlighter: rouge
   
@@ -16,6 +18,5 @@ just_the_docs:
     depth: 6
     sticky: true
 
-# Your custom domain
-url: "https://docs.voukoderpro.com"  # Replace with your custom domain
-baseurl: ""                          # Keep empty if it's root of domain
+url: "https://docs.voukoderpro.com"
+baseurl: ""
