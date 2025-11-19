@@ -417,34 +417,34 @@ IMPORTANT! Real exports using an NLE might be slower due to the NLE overhead.
 
 | Line | Description
 | --- | ---
-| `1` | Audio Phase PRE-INIT has been started
-| `2` | The audio filter chain has been parsed and has been converted to an format that FFmpeg understands
-| `3` | Audio Phase INIT has been started
-| `4 - 12` | The audio filter graph has been successfully applied
-| `13 - 29` | A graphical representation of the audio filter graph
-| `30 - 31` | The ALAC encoder has been successfully initialized
-| `32` | Video Phase PRE-INIT has been started
-| `33` | The video filter chain has been parsed and has been converted to an format that FFmpeg understands
-| `34` | Video Phase INIT has been started
-| `35 - 47` | The video filter graph has been successfully applied
-| `48 - 64` | A graphical representation of the video filter graph
-| `65 - 66` | The prores_ks encoder has been successfully initialized
-| `67` | Phase PRE-OPEN has been started
-| `68 - 72` | The audio and video streams get registered at the muxer node
-| `73` | Phase OPEN has been started
-| `74 - 75` | The audio encoder ALAC has been opened with no params (null) as 24 bits per sample
-| `76 - 175` | The video encoder prores_ks has been opened with no params (null). As no params has been set the encoder uses its default settings
-| `176 - 194` | The MOV muxer prints a debug output of its settings
-| `195 - 197` | The OPEN phase has been finished, everything has been set up and we are waiting for video and audio input frames
-| `198 - 223` | The loop where 10 frames are getting sent to the encoder. They are buffered only because it's just 10 frames, so no direct muxing appears.
-| `224` | Phase PRE-CLOSE has been started
-| `225 - 226` | The video and audio buffers get flushed. So the encoded frames will be sent to the muxer.
-| `227 - 236` | All 10 video frames get muxed with the audio frames (currently they don't logged)
-| `237` | Phase PRE-CLOSE has finished
-| `238` | Phase CLOSE has been started
-| `239 - 242` | The audio and video encoders get closed
-| `243 - 245` | The finishing lines
-| `247 - 249` | Some performance data with ignoring rendering and decoding parts in the NLE. Note: This data is also slightly incorrect and will be fixed in the next release.
+| 1 | Audio Phase PRE-INIT has been started
+| 2 | The audio filter chain has been parsed and has been converted to an format that FFmpeg understands
+| 3 | Audio Phase INIT has been started
+| 4 - 12 | The audio filter graph has been successfully applied
+| 13 - 29 | A graphical representation of the audio filter graph
+| 30 - 31 | The ALAC encoder has been successfully initialized
+| 32 | Video Phase PRE-INIT has been started
+| 33 | The video filter chain has been parsed and has been converted to an format that FFmpeg understands
+| 34 | Video Phase INIT has been started
+| 35 - 47 | The video filter graph has been successfully applied
+| 48 - 64 | A graphical representation of the video filter graph
+| 65 - 66 | The prores_ks encoder has been successfully initialized
+| 67 | Phase PRE-OPEN has been started
+| 68 - 72 | The audio and video streams get registered at the muxer node
+| 73 | Phase OPEN has been started
+| 74 - 75 | The audio encoder ALAC has been opened with no params (null) as 24 bits per sample
+| 76 - 175 | The video encoder prores_ks has been opened with no params (null). As no params has been set the encoder uses its default settings
+| 176 - 194 | The MOV muxer prints a debug output of its settings
+| 195 - 197 | The OPEN phase has been finished, everything has been set up and we are waiting for video and audio input frames
+| 198 - 223 | The loop where 10 frames are getting sent to the encoder. They are buffered only because it's just 10 frames, so no direct muxing appears.
+| 224 | Phase PRE-CLOSE has been started
+| 225 - 226 | The video and audio buffers get flushed. So the encoded frames will be sent to the muxer.
+| 227 - 236 | All 10 video frames get muxed with the audio frames (currently they don't logged)
+| 237 | Phase PRE-CLOSE has finished
+| 238 | Phase CLOSE has been started
+| 239 - 242 | The audio and video encoders get closed
+| 243 - 245 | The finishing lines
+| 247 - 249 | Some performance data with ignoring rendering and decoding parts in the NLE. Note: This data is also slightly incorrect and will be fixed in the next release.
 
 ## Troubleshooting
 ### Plugin doesn't show up
