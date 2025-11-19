@@ -3,6 +3,7 @@ layout: default
 title: Voukoder Pro
 toc: true
 ---
+{:toc}
 
 # Voukoder Pro Documentation
 Version 2.0.14 - Last edited: 19.11.2025 - Last editor: Daniel Stankewitz
