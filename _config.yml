@@ -4,4 +4,4 @@ just_the_docs:
   toc:
     enabled: true
     heading: "Contents"
-    depth: 3
+    depth: 6
