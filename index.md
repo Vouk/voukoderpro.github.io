@@ -1,7 +1,6 @@
 ---
 layout: default
 title: Voukoder Pro
-toc: true
 ---
 # Voukoder Pro Documentation
 Version 2.0.14 - Last edited: 19.11.2025 - Last editor: Daniel Stankewitz
@@ -9,7 +8,6 @@ Version 2.0.14 - Last edited: 19.11.2025 - Last editor: Daniel Stankewitz
 {:toc}
 
 ## Contents
----
 1. [Introduction](#introduction)
     1. [Structure](#structure)
     2. [Changelog](#changelog)
