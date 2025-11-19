@@ -14,7 +14,7 @@ Version 2.0.14 - Last edited: 19.11.2025 - Last editor: Daniel Stankewitz
 2. [Installation](#installation)
 	1. [Windows](#windows)
 	2. [Mac](#mac)
-3. [Quickstart]()
+3. [Quickstart](#quickstart)
 	1. [Open the designer](#open-the-designer)
 	2. [Create a scene](#create-a-scene)
 	3. [Configure and save the scene](#configure-and-save-the-scene)
