@@ -22,6 +22,7 @@ Or you can even use a custom built one. In this case please make sure you also a
 You can install the required libraries using homebrew by executing this command in your terminal:
 
     brew install ffmpeg@7
+
 ### Requirements
 The minimal supported OS version is currently MacOS 15 (Sequoia) or MacOS 11 (Big Sur) but which is currently untested. Both Apple Silicon and Intel Macs are supported now.
 
@@ -439,3 +440,6 @@ IMPORTANT! Real exports using an NLE might be slower due to the NLE overhead.
 | `243 - 245` | The finishing lines
 | `247 - 249` | Some performance data with ignoring rendering and decoding parts in the NLE. Note: This data is also slightly incorrect and will be fixed in the next release.
 </details>
+
+# Troubleshooting
+## Plugin doesn't show up
