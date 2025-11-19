@@ -443,3 +443,51 @@ IMPORTANT! Real exports using an NLE might be slower due to the NLE overhead.
 
 # Troubleshooting
 ## Plugin doesn't show up
+
+<img width="491" height="384" alt="image" src="https://github.com/user-attachments/assets/76d3b50e-7e76-4fe6-b0fc-7b8a0c5a2227" />
+
+Please check on this page of the installer if you did install the plugin for NLE. It will only show up if it has been manually selected.
+
+## DaVinci Resolve Studio
+tbd
+
+### Plugin doesn't show up
+#### Are you using the studio (paid) version or the non-studio (free) version?
+The free version doesn't support external plugins. Thus Voukoder Pro works with the paid DaVinci Resolve Studio version only.
+
+#### Did you select to install the DVRS plugin in the installer?
+You need to do this and check for the right install directory. Otherwise the plugin does not get installed.
+
+### Chapters causing the export to fail
+Chapters are currently not supported with Matroska (MKV) containers. Please use MOV or MKV instead.
+
+## VEGAS Pro
+
+
+### Plugin doesn't show up
+"Voukoder Pro" doesn't show up in VEGAS' "Render as" / export-dialog window.
+
+#### Did you select the correct VEGAS plugin in the Voukoder Pro installer?
+You need to select the plugins you want to use in the Voukoder Pro installer. Voukoder Pro is also not able to autodetect the installation path of VEGAS Pro. Make sure the installation path of the plugin is valid for your VEGAS Pro version.
+
+<img width="491" height="384" alt="image" src="https://github.com/user-attachments/assets/1a7808a1-bc44-4f9a-abf5-1723e32bdadd" />
+
+Default: C:\Program Files\VEGAS\VEGAS Pro 22.0 (Depending on your version of VEGAS Pro)
+
+#### Is voukoderproplug-vegas??.dll shown in the components tab?
+Go to Help > About ... and click on the Components tab. You'll see a list of currently loaded (internal and external) VEGAS Pro plugins. One of it should look similar to this entry:
+
+```
+voukoderproplug-vegas22.dll
+  version: 0.1.0.0
+  path: C:\Program Files\VEGAS\VEGAS Pro 22.0\FileIO Plug-Ins\voukoderproplug\voukoderproplug-vegas22.dll
+```
+
+If it is not present make sure the installation path is correct.
+
+#### It is still not shown. Help!
+This case should not happen anymore. This has actually been fixed from VoukoderPro-2_VEGAS_Pro_23-v4.zip on and from Voukoder Pro 2026 on.
+
+## VEGAS Pro 23
+### I don't see "Voukoder Pro" in the "Render" dialog
+Check the "Show all formats" checkbox in the "Render" dialog. The plugin should be visible then.
