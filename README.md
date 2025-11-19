@@ -1,7 +1,3 @@
----
-layout: default
-title: Voukoder Pro Documentation
----
 # Abc
 
 ## Introduction
