@@ -52,26 +52,36 @@ title: Changelog
   - Expanded the VEGAS Pro Plugin section, so users are more aware they have to check their version here
 - Licensing
   (Added an alternative, monthly subscription model license, still to come)
+
 ## 2.0.14 - 2025-06-29
   - Fixed the input field of the encoder settings > HDR > Min. Luminance that it can be 4 decimals.
+
 ## 2.0.13 - 2025-06-25
   - Added a watermark for users of the trial version. You'll still get access to the full functionality to test it.
+
 ## 2.0.12 - 2025-05-02
   - Fixed assigning the muxer options (i.e. WEBP "loop" or MP4 "faststart", etc)
+
 ## 2.0.11 - 2025-04-24
   - [Adobe Premiere Pro CC 2025] Fixed 5.1 audio support
+
 ## 2.0.10 - 2025-03-05
   - Fixed a small bug with the side data.
+
 ## 2.0.9
   - Fixed the side data values. Some of them have changed in FFmpeg 7.
+
 ## 2.0.8
   - Made the license verification more reliable
+
 ## 2.0.7
   - Fixed the Adobe After Effects plugin on Windows
   - The installer should ask for a reboot if necessary
+
 ## 2.0.6 - 2025-01-23
   - Voukoder Pro
     - Increased the number of muxer node inputs from 8 to 10
+
 ## 2.0.5 - 2025-01-10
 - Voukoder Pro
   - (renamed color trc gamma22 & gamma28 to bt470m and bt470bg)
@@ -80,6 +90,7 @@ title: Changelog
   - MacOS Big Sur should be lowest supported (untested)
   - Adobe Premiere Pro CC
     - Prevented the app to crash when an export has been started
+
 ## 2.0.0 - 2025-01-01
 - Voukoder Pro
   - Added auto-detection of the FFmpeg filters and added those with a 1:1 media type
