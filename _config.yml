@@ -2,11 +2,12 @@ remote_theme: just-the-docs/just-the-docs
 
 plugins:
   - jekyll-remote-theme
-  
+
 just_the_docs:
   toc:
     enabled: true
     depth: 6
 
-url: "https://docs.voukoderpro.com"
-baseurl: "" 
+# Your custom domain
+url: "https://docs.voukoderpro.com"  # Replace with your custom domain
+baseurl: ""                          # Keep empty if it's root of domain
