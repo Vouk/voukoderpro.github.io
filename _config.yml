@@ -6,5 +6,4 @@ plugins:
 just_the_docs:
   toc:
     enabled: true
-    heading: "Contents"
     depth: 6
