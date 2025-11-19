@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Voukoder Pro
+toc: true
 ---
 
 # Voukoder Pro Documentation
