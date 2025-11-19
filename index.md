@@ -162,9 +162,7 @@ After clicking on the Start button a new window appears containing the log messa
 **Successful Export**
 
 A successful log file of the "Simple Scene" with 10 iterations could look like this:
-
-<details><summary>Show details</summary>
-  
+ 
 ```
 2025-02-08 09:11:36 (info)	#### PHASE: PRE-INIT
 2025-02-08 09:11:36 (debug)	Filter config: abuffer@89f762fcedfb40f8be24da7ba1c7575f=sample_rate=44100:sample_fmt=flt:channel_layout=stereo,aformat=sample_fmts=s32p,abuffersink@2067616dc9a44f1a9a6087c61cc4091a
@@ -447,7 +445,6 @@ IMPORTANT! Real exports using an NLE might be slower due to the NLE overhead.
 | `239 - 242` | The audio and video encoders get closed
 | `243 - 245` | The finishing lines
 | `247 - 249` | Some performance data with ignoring rendering and decoding parts in the NLE. Note: This data is also slightly incorrect and will be fixed in the next release.
-</details>
 
 ## Troubleshooting
 ### Plugin doesn't show up
