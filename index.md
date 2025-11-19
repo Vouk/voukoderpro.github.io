@@ -29,8 +29,6 @@ Version 2.0.14 - Last edited: 19.11.2025 - Last editor: Daniel Stankewitz
 	2. [DaVinciResolve Studio](#davinci-resolve-studio)
 	3. [VEGAS Pro](#vegas-pro)
 	4. [VEGAS Pro 23](#vegas-pro-23)
-6. [Appendix](#appendix)
-	1. [Advanced Filtering](#advanced-filtering)
 
 ## Introduction
 Welcome to Voukoder Pro! This is the start of the continuously growing documentation.
