@@ -24,7 +24,7 @@ Version 2.0.14 - Last edited: 19.11.2025 - Last editor: Daniel Stankewitz
 	1. [Designer](#designer)
 	2. [Video Export](#video-export)
 	3. [Scene Test](#scene-test)
-5. [Troublesooting](#troubleshooting)
+5. [Troubleshooting](#troubleshooting)
 	1. [Plugin doesn't show up](#plugin-doesnt-show-up)
 	2. [DaVinciResolve Studio](#davinci-resolve-studio)
 	3. [VEGAS Pro](#vegas-pro)
