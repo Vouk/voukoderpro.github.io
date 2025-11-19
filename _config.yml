@@ -7,3 +7,6 @@ just_the_docs:
   toc:
     enabled: true
     depth: 6
+
+url: "https://docs.voukoderpro.com"
+baseurl: "" 
