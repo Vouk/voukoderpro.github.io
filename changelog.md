@@ -13,6 +13,7 @@ title: Changelog
   - Muxer options (i.e. +faststart) are working again
   - Using FFmpeg 8.0 now
   - Sorting video tracks first, audio tracks are second
+  - Optimized the compiler flags that resulted in around 8% performance increase
 - Logging
   - Added the menu option to open the log dir.
   - Added a dropdown box in the settings to change to log level
