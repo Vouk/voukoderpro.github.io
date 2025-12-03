@@ -3,14 +3,13 @@ layout: default
 title: Voukoder Pro
 ---
 # Voukoder Pro Documentation
-Version 2.0.14 - Last edited: 19.11.2025 - Last editor: Daniel Stankewitz
+Version 2.0.14 - Last edited: 03.12.2025 - Last editor: Daniel Stankewitz
 
 {:toc}
 
 ## Contents
 1. [Introduction](#introduction)
     1. [Structure](#structure)
-    2. [Changelog](#changelog)
 2. [Installation](#installation)
 	1. [Windows](#windows)
 	2. [Mac](#mac)
@@ -36,9 +35,6 @@ Welcome to Voukoder Pro! This is the start of the continuously growing documenta
 ### Structure
 Voukoder Pro consists out of more than one component. This diagram shows you how these components interact with each other on Windows. On MacOS the components have different type names (i.e. dylib instead of DLL).
 <img width="858" height="955" alt="image" src="https://github.com/user-attachments/assets/65744f7b-9f49-4914-b592-633935e25481" />
-
-### Changelog
-You can watch the whole [change log](changelog.md) on this page.
 
 ### Installation
 Voukoder Pro 2.0 requires the FFmpeg 7.1 shared libraries to be working.
