@@ -1,9 +1,9 @@
 ---
 layout: default
-title: Voukoder Pro
+title: V2026
 ---
 # Voukoder Pro Documentation
-Version 2.0.14 - Last edited: 03.12.2025 - Last editor: Daniel Stankewitz
+Version 2026.0.11 - Last edited: 03.12.2025 - Last editor: Daniel Stankewitz
 
 {:toc}
 
@@ -37,19 +37,19 @@ Voukoder Pro consists out of more than one component. This diagram shows you how
 <img width="858" height="955" alt="image" src="https://github.com/user-attachments/assets/65744f7b-9f49-4914-b592-633935e25481" />
 
 ### Installation
-Voukoder Pro 2.0 requires the FFmpeg 7.1 shared libraries to be working.
+Voukoder Pro 3.0 requires the FFmpeg 8 shared libraries to be working.
 
 #### Windows
 You can either use the package I provide:
 
-- LGPL: [FFmpeg.LGPL.Installer.msi](https://github.com/Vouk/ffmpeg/releases/download/latest/FFmpeg.LGPL.Installer.msi)
-- GPL: [FFmpeg.GPL.Installer.msi](https://github.com/Vouk/ffmpeg/releases/download/latest/FFmpeg.GPL.Installer.msi) (Includes additional encoders like (x264, x265, ...)
+- LGPL: [FFmpeg.8.0.LGPL.Installer.msi](https://github.com/Vouk/ffmpeg/releases/download/autobuild-2025-09-15/FFmpeg.8.0.LGPL.Installer.msi) 
+- GPL: [FFmpeg.8.0.GPL.Installer.msi](https://github.com/Vouk/ffmpeg/releases/download/autobuild-2025-09-15/FFmpeg.8.0.GPL.Installer.msi) (Includes additional GPL licensed encoders like (x264, x265, ...)
 Or you can even use a custom built one. In this case please make sure you also add the installation path to your PATH environment variable. The installers above already do this for you.
 
 #### Mac
 You can install the required libraries using homebrew by executing this command in your terminal:
 
-    brew install ffmpeg@7
+    brew install ffmpeg@8
 
 #### Requirements
 The minimal supported OS version is currently MacOS 15 (Sequoia) or MacOS 11 (Big Sur) but which is currently untested. Both Apple Silicon and Intel Macs are supported now.
