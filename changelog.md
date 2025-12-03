@@ -49,7 +49,7 @@ title: Changelog
       - French
       - Spanish
       - German
-      - (Tell me if you need more)
+      - (Tell me if you need more, please also report if translations are not correct)
 - Installer
   - Expanded the VEGAS Pro Plugin section, so users are more aware they have to check their version here
 - Licensing
