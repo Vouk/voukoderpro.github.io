@@ -59,17 +59,20 @@ This section requires the [installation](#installation) and [registration](#regi
 
 ### Open the Designer
 "Voukoder Pro" follows a different approach than "Voukoder". Instead of filling out some dropdown boxes it requires you to configure one or more so called "scenes". A "Scene" represents the workflow from input of raw frames to the output of "Voukoder Pro" (i.e. a file or a network task). Scenes can now be much more complex (i.e. filter chains or multiple node output links) which can be still supported using the graph design.
+When opening the Designer it will open the last openend Scenes again. 
 
 ### Create a scene
 If no "Untitled" scene has been created yet after opening the Designer app you can create the "simple scene" by clicking in the menu bar "Scene" > "New" > "Simple". Here you can see the most simple workflow.
 
+You have also the possibility to create a new filter with basic filters "Scene" > "New" > "Filters". For simplicity currently only filters are supported which have exactly 1 input pin and 1 output pin. Both have to be of the same media type.
+
 ### Configure and save the scene
-Double click on any node item on the scene to configure it. In most cases you need to do this only for the encoders and muxer. Choose whatever you like. Invalid combinations of encoders and muxers will be shown as a red box in the muxer node.
+Double click (or right click and select 'Properties ...') on any node item on the scene to configure it. In most cases you need to do this only for the encoders and muxer. Choose whatever you like. Invalid combinations of encoders and muxers will be shown as a red box in the muxer node.
 
 Once you have configured your scene, save it under a name you can remember and reflects the settings you have made.
 
 ### Open your NLE
-Next you need to open your NLE (i.e. DaVinci Resolve Studio, Adobe Premiere CC, etc). As soon as you have opened your NLE and you have a project loaded you should be able to select "Voukoder Pro" as output format and select that scene you have previously configured and saved (VEGAS Pro requires to open any modify a template first). All non-NLE relevant settings are associated to that scene. All scenes can also be shared in all supported NLEs.
+Next you need to open your Non-Linear Editing program (NLE for short) (i.e. DaVinci Resolve Studio, Adobe Premiere CC, etc). As soon as you have opened your NLE and you have a project loaded you should be able to select "Voukoder Pro" as output format and select that scene you have previously configured and saved (VEGAS Pro requires to open any modify a template first). All non-NLE relevant settings are associated to that scene. All scenes can also be shared in all supported NLEs.
 
 ### Render
 You can now render your video using the normal functionality in your NLE.
