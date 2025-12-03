@@ -1,6 +1,6 @@
 ---
 layout: default
-title: V2026
+title: 2026
 ---
 # Voukoder Pro Documentation
 Version 2026.0.11 - Last edited: 03.12.2025 - Last editor: Daniel Stankewitz
@@ -33,7 +33,7 @@ Version 2026.0.11 - Last edited: 03.12.2025 - Last editor: Daniel Stankewitz
 Welcome to Voukoder Pro! This is the start of the continuously growing documentation.
 
 ### Structure
-Voukoder Pro consists out of more than one component. This diagram shows you how these components interact with each other on Windows. On MacOS the components have different type names (i.e. dylib instead of DLL).
+Voukoder Pro 2026 (or internally V3) is the latest version. It consists out of more than one component. This diagram shows you how these components interact with each other on Windows. On MacOS the components have different type names (i.e. dylib instead of DLL).
 <img width="858" height="955" alt="image" src="https://github.com/user-attachments/assets/65744f7b-9f49-4914-b592-633935e25481" />
 
 ### Installation
