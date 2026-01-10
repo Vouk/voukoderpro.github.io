@@ -4,8 +4,11 @@ title: Changelog
 ---
 
 # Changelog
+## 2026.0.16 - 2026-01-10
+- Core
+  - Removed the watermark because it caused too many problems 
 
-## 3.0 - Begin of Q1 2026
+## 2026.0.15 - 2026-01-01
 - Core
   - Disabling a track doesn't cause Voukoder Pro to create an empty track anymore
   - If FFmpeg could not be found inform the user in a user friendly message
