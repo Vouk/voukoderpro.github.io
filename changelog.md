@@ -4,6 +4,10 @@ title: Changelog
 ---
 
 # Changelog
+## 2026.0.17 - 2026-01-17
+- Core
+  - Removed the invalid BETA tag
+
 ## 2026.0.16 - 2026-01-10
 - Core
   - Removed the watermark because it caused too many problems 
