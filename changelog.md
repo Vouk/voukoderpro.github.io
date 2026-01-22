@@ -4,6 +4,10 @@ title: Changelog
 ---
 
 # Changelog
+## 2026.0.18 - 2026-01-22
+- Core
+  - Fixed applying side data (Stereo 3D, Spherical and HDR) in the encoder dialog
+
 ## 2026.0.17 - 2026-01-17
 - Core
   - Removed the invalid BETA tag
