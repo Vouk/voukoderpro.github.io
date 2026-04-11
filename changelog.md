@@ -4,7 +4,10 @@ title: Changelog
 ---
 
 # Changelog
-## 2026.0.19
+## 2026.0.20 - 2026-04-11
+- Fixed allowing unlimited instances on the same computer
+
+## 2026.0.19 - 2026-04-10
 - Released the first BETA of the ARM64 build
 
 ## 2026.0.18 - 2026-01-22
