@@ -4,6 +4,9 @@ title: Changelog
 ---
 
 # Changelog
+## 2026.0.21 - 2026-04-12
+- prores: Added qscale / global_quality specifier which lets the user to define the encoding quality
+
 ## 2026.0.20 - 2026-04-11
 - Fixed allowing unlimited instances on the same computer
 
