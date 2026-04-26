@@ -4,6 +4,9 @@ title: Changelog
 ---
 
 # Changelog
+## 2026.1.0 - 2026-04-26
+- Added the new installer for the Boris FX VEGAS Pro 2026 plugin
+
 ## 2026.0.21 - 2026-04-12
 - prores: Added qscale / global_quality specifier which lets the user to define the encoding quality
 
