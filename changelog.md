@@ -4,6 +4,10 @@ title: Changelog
 ---
 
 # Changelog
+## 2026.1.1 - 2026-05-01
+- Added "global"-options to many encoders
+- Support multithreading with slice-based encoders (like FFv1)
+
 ## 2026.1.0 - 2026-04-26
 - Added the new installer for the Boris FX VEGAS Pro 2026 plugin
 
