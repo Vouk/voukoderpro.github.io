@@ -3,7 +3,7 @@ layout: default
 title: V2026
 ---
 # Voukoder Pro Documentation
-Version 2026.0.11 - Last edited: 03.12.2025 - Last editor: Daniel Stankewitz
+Version 2026.1.1 - Last edited: 01.05.2026 - Last editor: Daniel Stankewitz
 
 {:toc}
 
