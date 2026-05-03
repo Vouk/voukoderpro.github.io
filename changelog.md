@@ -4,6 +4,9 @@ title: Changelog
 ---
 
 # Changelog
+## 2026.1.2 - 2026-05-03
+- Fixed one big bug in the plugin for VEGAS Pro 18, 19, 20 and 21
+
 ## 2026.1.1 - 2026-05-01
 - Added "global"-options to many encoders
 - Support multithreading with slice-based encoders (like FFv1)
