@@ -4,6 +4,9 @@ title: Changelog
 ---
 
 # Changelog
+## 2026.1.3 - 2026-05-10
+- Fixed some settings in the installer for non-us customers
+
 ## 2026.1.2 - 2026-05-03
 - Fixed one big bug in the plugin for VEGAS Pro 18, 19, 20 and 21
 
