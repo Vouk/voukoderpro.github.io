@@ -2,8 +2,13 @@
 layout: default
 title: Changelog
 ---
-
 # Changelog
+## 2026.1.5 - 2026-06-18
+# Made After Effects available again on Windows
+
+## 2026.1.4 - 2026-06-17
+# Introduce the MacOS version for Adobe Premiere Pro and Davinci Resolve Studio
+
 ## 2026.1.3 - 2026-05-10
 - Fixed some settings in the installer for non-us customers
 
