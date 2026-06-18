@@ -5,6 +5,7 @@ title: Changelog
 # Changelog
 ## 2026.1.5 - 2026-06-18
 - Made After Effects available again on Windows
+- Remove the encoder/muxer compatiblity check for now to make ProRes in MXF work
 
 ## 2026.1.4 - 2026-06-17
 - Introduce the MacOS version for Adobe Premiere Pro and Davinci Resolve Studio
