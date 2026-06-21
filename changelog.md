@@ -3,8 +3,11 @@ layout: default
 title: Changelog
 ---
 # Changelog
+## 2026.1.7 - 2026-06-21
+- Added the "Codec Tag" selection to (hopefully) support encoding videos for telegram (and
+
 ## 2026.1.5 - 2026-06-18
-- Made After Effects available again on Windows
+- Made After Effects available again on Windows on ARM
 - Remove the encoder/muxer compatiblity check for now to make ProRes in MXF work
 
 ## 2026.1.4 - 2026-06-17
