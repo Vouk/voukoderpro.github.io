@@ -3,6 +3,9 @@ layout: default
 title: Changelog
 ---
 # Changelog
+## 2026.1.8 - 2026-06-22
+- Got After Effects on MacOS back working again!
+
 ## 2026.1.7 - 2026-06-21
 - Added the "Codec Tag" selection to (hopefully) support encoding videos for telegram (and
 
