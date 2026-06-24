@@ -3,6 +3,9 @@ layout: default
 title: Changelog
 ---
 # Changelog
+## 2026.1.9 - 2026-06-23
+- Fixed a small issue with the new "Codec Tag" parameter
+
 ## 2026.1.8 - 2026-06-22
 - Got After Effects on MacOS back working again!
 
