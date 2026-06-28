@@ -81,7 +81,7 @@ You can now render your video using the normal functionality in your NLE.
 ## Subscription Cancellation
 If you have signed up for a subscription you can of course cancel it again at every time. To do so click here:
 
-<a href="https://billing.stripe.com/p/login/3cIaEW4Ii8dT41w7RzaIM00"><img width="448" height="180" alt="{972919DB-1655-4D21-BE01-7F59835A4455}" src="https://github.com/user-attachments/assets/96704405-9782-43f5-b379-9bc75c0710cc" /></a>
+<a href="https://billing.stripe.com/p/login/3cIaEW4Ii8dT41w7RzaIM00"><img width="448" height="180" alt="image" src="https://github.com/user-attachments/assets/b86d9e74-86fd-43a6-9d22-328d62598ee4" /></a>
 
 or click on this link: <a href="https://billing.stripe.com/p/login/3cIaEW4Ii8dT41w7RzaIM00">Unscubscribe now</a>.
 
