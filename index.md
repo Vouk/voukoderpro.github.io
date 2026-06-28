@@ -3,7 +3,7 @@ layout: default
 title: V2026
 ---
 # Voukoder Pro Documentation
-Version 2026.1.1 - Last edited: 01.05.2026 - Last editor: Daniel Stankewitz
+Version 2026.1.9 - Last edited: 28.06.2026 - Last editor: Daniel Stankewitz
 
 {:toc}
 
@@ -19,11 +19,12 @@ Version 2026.1.1 - Last edited: 01.05.2026 - Last editor: Daniel Stankewitz
 	3. [Configure and save the scene](#configure-and-save-the-scene)
 	4. [Open your NLE](#open-your-nle)
 	5. [Render](#render)
-4. [Usage](#usage)
+4. [Subscription Cancellation](#cancellation)
+5. [Usage](#usage)
 	1. [Designer](#designer)
 	2. [Video Export](#video-export)
 	3. [Scene Test](#scene-test)
-5. [Troubleshooting](#troubleshooting)
+6. [Troubleshooting](#troubleshooting)
 	1. [Plugin doesn't show up](#plugin-doesnt-show-up)
 	2. [DaVinciResolve Studio](#davinci-resolve-studio)
 	3. [VEGAS Pro](#vegas-pro)
@@ -42,8 +43,8 @@ Voukoder Pro 3.0 requires the FFmpeg 8 shared libraries to be working.
 #### Windows
 You can either use the package I provide:
 
-- LGPL: [FFmpeg.8.0.LGPL.Installer.msi](https://github.com/Vouk/ffmpeg/releases/download/autobuild-2025-09-15/FFmpeg.8.0.LGPL.Installer.msi) 
-- GPL: [FFmpeg.8.0.GPL.Installer.msi](https://github.com/Vouk/ffmpeg/releases/download/autobuild-2025-09-15/FFmpeg.8.0.GPL.Installer.msi) (Includes additional GPL licensed encoders like (x264, x265, ...)
+- LGPL: [FFmpeg.8.1.1.LGPL.Installer.msi](https://github.com/Vouk/ffmpeg/releases/download/autobuild-2026-06-07-16-09/ffmpeg-n8.1.1-11-ge4c7fbf6c0-win64-lgpl-shared-8.1.msi) 
+- GPL: [FFmpeg.8.1.1.GPL.Installer.msi](https://github.com/Vouk/ffmpeg/releases/download/autobuild-2026-06-07-16-09/ffmpeg-n8.1.1-11-ge4c7fbf6c0-win64-gpl-shared-8.1.msi) (Includes additional GPL licensed encoders like (x264, x265, ...)
 Or you can even use a custom built one. In this case please make sure you also add the installation path to your PATH environment variable. The installers above already do this for you.
 
 #### Mac
@@ -76,6 +77,8 @@ Next you need to open your Non-Linear Editing program (NLE for short) (i.e. DaVi
 
 ### Render
 You can now render your video using the normal functionality in your NLE.
+
+## Subscription Cancellation
 
 ## Usage
 ### Designer
