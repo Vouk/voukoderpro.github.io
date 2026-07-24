@@ -3,6 +3,9 @@ layout: default
 title: Changelog
 ---
 # Changelog
+## 2026.1.10 - 2026-06-23
+- Included a BETA but fully functional version of the "Transkoder" app
+
 ## 2026.1.9 - 2026-06-23
 - Fixed a small issue with the new "Codec Tag" parameter
 
