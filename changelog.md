@@ -3,6 +3,9 @@ layout: default
 title: Changelog
 ---
 # Changelog
+## 2026.1.11 - 2026-08-01
+- Added support for exporting HDR (PQ and HLG) files with Premiere Pro
+
 ## 2026.1.10 - 2026-07-24
 - Included a BETA but fully functional version of the "Transkoder" app
 
