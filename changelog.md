@@ -3,6 +3,9 @@ layout: default
 title: Changelog
 ---
 # Changelog
+## 2026.1.12 - 2026-08-02
+- Applied a bt2020 fix
+
 ## 2026.1.11 - 2026-08-01
 - Added support for exporting HDR (PQ and HLG) files with Premiere Pro
 
