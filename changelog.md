@@ -3,7 +3,7 @@ layout: default
 title: Changelog
 ---
 # Changelog
-### 2026.2.0 - 2026-08-04
+## 2026.2.0 - 2026-08-04
 - Added support for file attachments in the Matroska/MKV format
 
 ## 2026.1.12 - 2026-08-02
