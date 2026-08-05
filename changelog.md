@@ -6,6 +6,7 @@ title: Changelog
 ## 2026.2.0 - 2026-08-04
 - Added support for file attachments in the Matroska/MKV format
 - Ignore all input nodes that are not connected  to any output node
+- Transkoder: Avoid displying  horizontally compacted columns if no scenes.json file is there
 
 ## 2026.1.12 - 2026-08-02
 - Applied a bt2020 fix
