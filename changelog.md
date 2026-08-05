@@ -8,6 +8,7 @@ title: Changelog
 - Ignore all input nodes that are not connected  to any output node
 - Transkoder: Avoid displying  horizontally compacted columns if no scenes.json file is there
 - Transkoder: Prevent running the transcoding if no scenes are available.
+- Transkoder: Using a QFileSystemWatcher that triggers reload of the scene selections and removed the manual actions (That solves also the Blocking Transkoder all when the Designer is open)
 
 ## 2026.1.12 - 2026-08-02
 - Applied a bt2020 fix
