@@ -10,6 +10,7 @@ title: Changelog
 - Transkoder: Avoid displaying  horizontally compacted columns if no scenes.json file is there
 - Transkoder: Prevents running the transcoding if no scenes are available.
 - Transkoder: Using a QFileSystemWatcher that triggers reload of the scene selections and removed the manual actions (That solves also the blocking Transkoder  when the Designer is also open)
+- Transkoder: Fixed a planar/packed audio decoding issue
 
 ## 2026.1.12 - 2026-08-02
 - Applied a bt2020 fix
