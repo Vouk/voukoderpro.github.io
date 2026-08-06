@@ -3,7 +3,7 @@ layout: default
 title: Changelog
 ---
 # Changelog
-## 2026.2.0 - 2026-08-??
+## 2026.2.0 - 2026-08-06
 - Added support for file attachments in the Matroska/MKV format
 - Ignore all input nodes that are not connected  to any output node
 - Removed the 2nd MATROSKA muxer entry
