@@ -3,6 +3,12 @@ layout: default
 title: Changelog
 ---
 # Changelog
+## 2026.2.2 - 2026-08-08
+- Fixed the bug with random characters in the VEGAS Pro UI
+
+## 2026.2.1 - 2026-08-08
+- Tried to fix the bug Voukoder Pro doesn't start up in VEGAS Pro
+
 ## 2026.2.0 - 2026-08-06
 - Added support for file attachments in the Matroska/MKV format
 - Ignore all input nodes that are not connected  to any output node
