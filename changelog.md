@@ -3,6 +3,10 @@ layout: default
 title: Changelog
 ---
 # Changelog
+## 2026.2.3 - 2026-08-20
+- Showing audio track codec tags as hex values instead of question marks
+- Showing global options for libfdk_aac if the user uses a custom compilation for it
+
 ## 2026.2.2 - 2026-08-08
 - Fixed the bug with random characters in the VEGAS Pro UI
 
