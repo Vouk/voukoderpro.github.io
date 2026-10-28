@@ -3,6 +3,9 @@ layout: default
 title: Changelog
 ---
 # Changelog
+## 2026.2.6 - 2026-10-28
+- Added an installation target for BorisFX Vegas Pro 2027
+
 ## 2026.2.3 - 2026-08-20
 - Showing audio track codec tags as hex values instead of question marks
 - Showing global options for libfdk_aac if the user uses a custom compilation for it
