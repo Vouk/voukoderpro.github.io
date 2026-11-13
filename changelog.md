@@ -12,6 +12,7 @@ title: Changelog
 - Transkoder: The progress bar turns green while encoding and when done, and red if encoding failed
 - Designer: The dropdowns in the preferences show the encoder IDs (e.g. h264_nvenc) so hardware encoders can be told apart
 - Designer: Fixed the post-processing selection in the preferences
+
 ## 2026.2.7 - 2026-11-07
 - Reworked the encoder parameters: the global options are now read directly from FFmpeg
 - GOP size and B-frames default to the encoder's own defaults, like the FFmpeg command line does
@@ -19,6 +20,7 @@ title: Changelog
 - libsvtav1: The CRF, VBR and CBR rate control modes are working now
 - QSV: Fixed the rate control modes (CQP, ICQ, look-ahead)
 - Existing scenes are converted to the new encoder parameters automatically
+
 ## 2026.2.6 - 2026-10-28
 - Added an installation target for BorisFX Vegas Pro 2027
 
@@ -29,8 +31,10 @@ title: Changelog
 - Reverted the ProRes codec tag change from 2026.2.4
 - Fixed the chroma subsampling shown for the NV16, P210 and P216 pixel formats (4:2:2 instead of 4:2:0)
 - Installer: Updated the bundled Visual C++ runtime
+
 ## 2026.2.4 - 2026-08-21
 - ProRes: Setting the codec tag (FourCC) that matches the selected ProRes profile in MOV and MP4 files
+
 ## 2026.2.3 - 2026-08-20
 - Showing audio track codec tags as hex values instead of question marks
 - Showing global options for libfdk_aac if the user uses a custom compilation for it
