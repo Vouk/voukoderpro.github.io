@@ -3,6 +3,9 @@ layout: default
 title: Changelog
 ---
 # Changelog
+
+## 2027.0.0 - xxxx-xx-xx
+
 ## 2026.2.8 - 2026-11-13
 - After Effects: Added support for 16 bpc color depth ("Trillions of Colors" and "Trillions of Colors+")
 - Transkoder: Queue items can be reordered via drag and drop
