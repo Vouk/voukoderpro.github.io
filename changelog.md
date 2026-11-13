@@ -3,9 +3,34 @@ layout: default
 title: Changelog
 ---
 # Changelog
+## 2026.2.8 - 2026-11-13
+- After Effects: Added support for 16 bpc color depth ("Trillions of Colors" and "Trillions of Colors+")
+- Transkoder: Queue items can be reordered via drag and drop
+- Transkoder: Queue items can be disabled to skip them without removing them from the queue
+- Transkoder: Added a context menu to the queue with "Disable/Enable", "Go to Source", "Go to Output", "Duplicate" and "Remove"
+- Transkoder: Showing the elapsed time while encoding and the total encoding time when an item is done
+- Transkoder: The progress bar turns green while encoding and when done, and red if encoding failed
+- Designer: The dropdowns in the preferences show the encoder IDs (e.g. h264_nvenc) so hardware encoders can be told apart
+- Designer: Fixed the post-processing selection in the preferences
+## 2026.2.7 - 2026-11-07
+- Reworked the encoder parameters: the global options are now read directly from FFmpeg
+- GOP size and B-frames default to the encoder's own defaults, like the FFmpeg command line does
+- Fixed quality settings that had no effect with some encoders (e.g. MJPEG, MPEG-4, Snow, SpeedHQ, SVQ1, rav1e, kvazaar and WebP)
+- libsvtav1: The CRF, VBR and CBR rate control modes are working now
+- QSV: Fixed the rate control modes (CQP, ICQ, look-ahead)
+- Existing scenes are converted to the new encoder parameters automatically
 ## 2026.2.6 - 2026-10-28
 - Added an installation target for BorisFX Vegas Pro 2027
 
+## 2026.2.5 - 2026-10-22
+- Windows on ARM: The Core is now a hybrid ARM64X library and the DaVinci Resolve and VEGAS Pro plugins are ARM64EC builds
+- Windows on ARM: Fixed a crash of the Designer
+- ProRes 4444 with alpha: The MOV file now stores the correct bit depth so players (e.g. Resolume) detect the alpha channel
+- Reverted the ProRes codec tag change from 2026.2.4
+- Fixed the chroma subsampling shown for the NV16, P210 and P216 pixel formats (4:2:2 instead of 4:2:0)
+- Installer: Updated the bundled Visual C++ runtime
+## 2026.2.4 - 2026-08-21
+- ProRes: Setting the codec tag (FourCC) that matches the selected ProRes profile in MOV and MP4 files
 ## 2026.2.3 - 2026-08-20
 - Showing audio track codec tags as hex values instead of question marks
 - Showing global options for libfdk_aac if the user uses a custom compilation for it
