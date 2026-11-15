@@ -4,7 +4,26 @@ title: Changelog
 ---
 # Changelog
 
-## 2027.0.0 - xxxx-xx-xx
+## 2027.0.0 - 2026-11-15
+- Upgraded FFmpeg to 9.0 (Windows x64 and ARM64, Linux, macOS)
+- Interlaced video: The field order (top or bottom field first) is now written to the encoded file. Frames are marked progressive when a deinterlace filter is used
+- Fixed lost frames at the end of an export (encoders are now flushed correctly)
+- Fixed post-processing commands with spaces or special characters in paths
+- Fixed chapter parsing and 24-bit audio
+- Errors during an export are now reported instead of being ignored
+- Scene files are saved safely, so a crash while saving no longer leaves a broken scenes.json
+- License check: Added timeouts, and the subscription check no longer fails when the license server can't be reached
+- Premiere Pro: Reworked the plugin. Exports now carry the timecode, scenes are remembered more reliably (existing projects keep their selection), audio-only exports and frame rates are fixed, cancel and error messages are clearer and Unicode paths work
+- After Effects: Added 32 bpc (float) output, tagged with the correct color space (After Effects 25.2+)
+- After Effects: Fixed audio-only exports, several exports running at the same time, exact NTSC frame rates, pixel aspect ratio, straight/premultiplied alpha, the file extension and Unicode paths
+- After Effects: Fixed scene identity and chapters, plus a problem with After Effects' idle callback
+- After Effects: More detailed logging in the After Effects log
+- DaVinci Resolve: Fixed scene identity and chapters
+- VEGAS Pro: Fixed the audio length, the scene selection and memory leaks. Voukoder Pro now loads only when it's first used
+- Designer: Asks to save unsaved changes before closing, fixed "Save As" and added support for Unicode paths
+- Designer: Scene names are no longer passed through a shell when starting the Designer (security fix)
+- Transkoder: Audio and video stay in sync, including variable frame rate sources and joined TS files. Fixed output planning and format conversion
+- macOS: FFmpeg is no longer bundled. Voukoder Pro uses Homebrew FFmpeg and the installer warns if it's missing. macOS 15 or newer is required
 
 ## 2026.2.8 - 2026-11-13
 - After Effects: Added support for 16 bpc color depth ("Trillions of Colors" and "Trillions of Colors+")
