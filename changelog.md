@@ -24,6 +24,7 @@ title: Changelog
 - Designer: Scene names are no longer passed through a shell when starting the Designer (security fix)
 - Transkoder: Audio and video stay in sync, including variable frame rate sources and joined TS files. Fixed output planning and format conversion
 - macOS: Voukoder Pro uses Homebrew FFmpeg and the installer warns if it's missing. macOS 15 or newer is required
+- VEGAS Pro: Updated all GUIDs
 
 ## 2026.2.8 - 2026-11-13
 - After Effects: Added support for 16 bpc color depth ("Trillions of Colors" and "Trillions of Colors+")
